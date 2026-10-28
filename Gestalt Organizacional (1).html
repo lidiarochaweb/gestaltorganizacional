@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gestalt Organizacional</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--b:#f7f6f1;--f:#2b3135;--c:#fff;--p:#0f4c5c;--s:#8aa899;--l:#dfe5e1;--h:#eef2ef;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--b:#0d1f26;--f:#e6ece9;--c:#14303a;--p:#7fc4d4;--l:#25444f;--h:#112a33}}
+:root[data-theme="dark"]{--b:#0d1f26;--f:#e6ece9;--c:#14303a;--p:#7fc4d4;--l:#25444f;--h:#112a33}
+html{scroll-behavior:smooth;scroll-padding-top:calc(70px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box}
+body{margin:0;background:var(--b);color:var(--f);font:17px/1.65 Inter,Arial,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:#0f4c5c;z-index:10}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;color:var(--p);line-height:1.2}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:#0f4c5c;display:flex;gap:4px;overflow-x:auto;padding:10px 16px;white-space:nowrap}
+nav a{color:#e6f0ec;text-decoration:none;font-size:14px;padding:6px 12px;border-radius:20px}
+nav a:hover{background:#1b6275}
+section{max-width:1080px;margin:0 auto;padding:64px 20px 8px}
+h2{font-size:clamp(28px,4vw,40px);margin:0 0 12px}
+.hero{background:linear-gradient(135deg,#0b3a47,#0f4c5c 60%,#1b6275);color:#f7f6f1;max-width:none;display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center;padding:48px max(20px,calc(50% - 540px))}
+.hero h1{color:#f7f6f1;font-size:clamp(38px,6vw,64px);margin:0 0 8px}
+.hero p{color:#d6e2dc;margin:6px 0}
+.hero b{color:#fff}
+#cv{width:100%;height:420px;cursor:grab;touch-action:none;border-radius:16px;background:#0b3a47}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+button{font:inherit;font-size:14px;border:1px solid var(--s);background:var(--c);color:var(--f);padding:7px 14px;border-radius:20px;cursor:pointer}
+button.on,button:hover{background:var(--p);color:var(--b);border-color:var(--p)}
+.hero button{background:transparent;color:#e6f0ec}
+.hero button.on{background:#8aa899;color:#0b3a47}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin:18px 0}
+.k{background:var(--c);border:1px solid var(--l);border-radius:16px;padding:20px}
+.k h3{margin:0 0 6px;font-size:21px}
+.k svg{width:100%;max-width:260px;display:block;margin:6px auto}
+.q{color:var(--p);font-weight:600}
+small,.n{font-size:14px;opacity:.8}
+details{background:var(--c);border:1px solid var(--l);border-radius:12px;padding:12px 16px;margin:10px 0}
+summary{cursor:pointer;font-weight:600;color:var(--p)}
+input[type=range]{width:100%}
+.m{height:18px;background:var(--l);border-radius:9px;overflow:hidden}
+.m i{display:block;height:100%;background:var(--s);width:50%;transition:width .3s}
+.rv{opacity:0;transform:translateY(20px);transition:.6s}.rv.v{opacity:1;transform:none}
+.ok{color:#2e7d4f;font-weight:600}.no{color:#b3472f;font-weight:600}
+blockquote{font-family:"Source Serif 4",Georgia,serif;font-size:clamp(22px,3vw,30px);color:var(--p);border-left:4px solid var(--s);margin:16px 0;padding-left:18px}
+a{color:var(--p)}
+footer{text-align:center;padding:40px 20px;font-size:14px;opacity:.8}
+#pg{position:fixed;left:0;top:env(safe-area-inset-top,0px);height:3px;background:#8aa899;width:0;z-index:11}
+.fl line{stroke-dasharray:8 8;animation:fl 1s linear infinite}@keyframes fl{to{stroke-dashoffset:-32}}
+#mp g,#cf text{transition:.3s}#mp .nd:hover circle{stroke:#0f4c5c;stroke-width:4}
+nav button{background:transparent;color:#e6f0ec;border-color:#8aa899;margin-left:auto}
+@media(max-width:760px){.hero{grid-template-columns:1fr}}
+</style></head><body>
+<nav><a href="#objetivo">Objetivo</a><a href="#gestalt">Gestalt</a><a href="#perspectivas">Perspectivas</a><a href="#historia">História</a><a href="#conceitos">Conceitos</a><a href="#mapa">Mapa</a><a href="#cultura">Cultura e clima</a><a href="#aplicacoes">Aplicações</a><a href="#caso">Caso</a><a href="#atividade">Atividade</a><a href="#quiz">Quiz</a><a href="#limites">Limites</a><a href="#refs">Referências</a><a href="#autora">Autora</a><button id="th" aria-label="Alternar tema">◐ Tema</button></nav>
+<div id="pg"></div><header class="hero"><div><h1>Gestalt Organizacional</h1>
+<p style="font-size:20px">Uma compreensão integrada das pessoas, das relações e dos sistemas organizacionais.</p>
+<p>Psicologia · FACHUSC · Salgueiro - PE · 4º período<br>Disciplina: Teorias Psicológicas · Profª Estela<br><b>Lídia Christine Leite Rocha</b></p>
+<p class="n">Arraste o modelo 3D ao lado e mude o ângulo: o mesmo conjunto de pontos muda de sentido.</p></div>
+<div><canvas id="cv"></canvas>
+<div class="bar" id="md"><button class="on" data-m="0">Indivíduos</button><button data-m="1">Grupos</button><button data-m="2">Organização</button></div>
+<div class="bar" id="vw"><button data-v="f">Vista frontal</button><button data-v="l">Vista lateral</button><button data-v="a">Girar</button></div>
+<p id="cap" class="n" style="color:#d6e2dc"></p></div></header>
+
+<section id="objetivo" class="rv"><h2>Objetivo do trabalho</h2>
+<p>Explicar a abordagem gestáltica aplicada às organizações: fundamentos psicológicos, desenvolvimento histórico, conceitos centrais e contribuições para compreender pessoas, grupos, conflitos, liderança, comunicação e cultura organizacional, com pensamento crítico e relação entre teoria e situações reais.</p>
+<div class="g"><div class="k"><h3>Objetivos específicos</h3><ol><li>Definir Gestalt e diferenciar Psicologia da Gestalt, Gestalt-terapia e abordagens organizacionais.</li><li>Apresentar a teoria de campo de Lewin e conceitos como figura e fundo, awareness, contato e autorregulação.</li><li>Analisar cultura, clima, comunicação, liderança e mudança.</li><li>Discutir contribuições e limites, com estudo de caso, atividade e quiz.</li></ol></div>
+<div class="k"><h3>Como usar este site</h3><p>Cada seção tem elementos clicáveis: ilusões de percepção, simuladores, quadros que se abrem, atividade e quiz. As afirmações teóricas trazem citação autor-data; a lista completa está em <a href="#refs">Referências</a>.</p></div></div></section>
+
+<section id="gestalt" class="rv"><h2>O que é Gestalt?</h2>
+<p>Do alemão, <i>Gestalt</i> remete a forma, configuração ou totalidade organizada. A Psicologia da Gestalt estuda como a organização do conjunto influencia a percepção das partes: não vemos estímulos soltos, vemos padrões (Wertheimer, 1923; Wagemans et al., 2012). Experimente os três laboratórios.</p>
+<div class="g">
+<div class="k"><h3>1. Proximidade</h3><svg id="dt" viewBox="0 0 460 460"></svg><input id="sl" type="range" min="0" max="100" value="0" aria-label="Espaçamento"><p id="dl" class="q"></p><small>Os pontos são idênticos; só a distância muda. Elementos próximos são agrupados.</small></div>
+<div class="k"><h3>2. Figura e fundo</h3><svg viewBox="0 0 300 300"><rect width="300" height="300" fill="#0f4c5c"/><path id="sd" fill="#f7f6f1" fill-rule="evenodd" d="M0 0H300V300H0Z M110 20H190C180 80 215 110 215 170C215 220 185 240 190 280H110C115 240 85 220 85 170C85 110 120 80 110 20Z"/><path id="vs" fill="#8aa899" d="M110 20H190C180 80 215 110 215 170C215 220 185 240 190 280H110C115 240 85 220 85 170C85 110 120 80 110 20Z"/></svg><div class="bar"><button id="b1">Ver o vaso</button><button id="b2">Ver os rostos</button></div><small>Dois perfis voltados um para o outro, ou um vaso? A atenção alterna a figura; o resto vira fundo.</small></div>
+<div class="k"><h3>3. Ambiguidade (cubo)</h3><svg id="nk" viewBox="0 0 240 240"><g stroke="#0f4c5c" stroke-width="3" fill="none"><rect id="r1" x="90" y="30" width="100" height="100"/><rect id="r2" x="40" y="80" width="100" height="100"/><path d="M90 30L40 80M190 30L140 80M90 130L40 180M190 130L140 180"/></g></svg><p class="q">Clique no cubo para trocar a face da frente.</p><small>Mesmo desenho, duas leituras. Na Gestalt, perceber é interpretar a configuração.</small></div></div></section>
+
+<section id="perspectivas" class="rv"><h2>Três perspectivas, não sinônimos</h2>
+<div class="g"><details class="k" open><summary>Psicologia da Gestalt</summary><p>Estudo experimental da percepção e da organização perceptiva, ligado a Max Wertheimer, Wolfgang Köhler e Kurt Koffka. Princípios: proximidade, semelhança, continuidade, figura-fundo.</p></details>
+<details class="k"><summary>Gestalt-terapia</summary><p>Abordagem psicoterapêutica associada a Fritz Perls, Laura Perls e Paul Goodman. Enfatiza experiência presente, contato, awareness e responsabilidade (Perls; Hefferline; Goodman, 1951).</p></details>
+<details class="k"><summary>Abordagens organizacionais</summary><p>Usam conceitos e princípios gestálticos para compreender relações, processos e mudança em organizações (ex.: Chidiac, 2013). Não há uma única teoria padronizada.</p></details></div>
+<p class="n">Há conexões históricas e conceituais, mas as três não são sinônimas, e nem toda prática de gestão é aplicação comprovada da Gestalt.</p></section>
+
+<section id="historia" class="rv"><h2>Contexto histórico</h2><p>Clique nos marcos.</p>
+<div class="bar" id="tl"><button class="on">1912–1923</button><button>1936</button><button>1951</button><button>Décadas seguintes</button></div>
+<div class="k" id="tt"></div></section>
+
+<section id="conceitos" class="rv"><h2>Conceitos centrais</h2>
+<h3>Totalidade</h3><p>Uma organização não se reduz à soma de seus funcionários: liderança, comunicação, cultura, condições de trabalho e relações se influenciam mutuamente. Exemplo: uma equipe de baixo desempenho pode viver metas instáveis, comunicação fragmentada e sobrecarga, além de fatores individuais; o problema costuma envolver os dois níveis.</p>
+<h3>Figura e fundo na organização</h3>
+<div class="k"><p>Analogia aplicada: certos problemas ocupam o primeiro plano enquanto condições relevantes ficam ao fundo. Não é regra universal de diagnóstico.</p><div class="bar"><button id="ff">Revelar o fundo</button></div><p id="fg" class="q">Figura: “Os funcionários se atrasam por falta de comprometimento.”</p><p id="fb" hidden>Fundo: sobrecarga de trabalho, comunicação deficiente e processos pouco claros.</p></div>
+<h3>Campo psicológico (Lewin)</h3>
+<p>Para Lewin (1936), o comportamento é função da pessoa e do ambiente percebido, que formam um campo interdependente: C = f(P, A). Simulação didática (não é fórmula empírica):</p>
+<div class="g"><div class="k">Preparo da pessoa<input id="p1" type="range" value="70" aria-label="Preparo"><br>Apoio do ambiente (normas, recursos, relações)<input id="p2" type="range" value="30" aria-label="Apoio"><div class="m"><i id="bo"></i></div><p id="ot" class="q"></p></div>
+<div class="k"><h3>Níveis do campo</h3><p><b>Indivíduo:</b> necessidades, percepções, expectativas.<br><b>Equipe:</b> normas, papéis, poder.<br><b>Organização:</b> recursos, estrutura, condições de trabalho.</p></div></div>
+<h3>Awareness, contato e autorregulação</h3>
+<details><summary>Awareness</summary>Tomada de consciência da experiência presente: o que percebo, sinto e faço agora.</details>
+<details><summary>Contato</summary>Troca com o outro e com o ambiente, na fronteira da relação.</details>
+<details><summary>Autorregulação</summary>Reconhecer necessidades e ajustar-se de modo criativo ao contexto.</details>
+<p class="n">São conceitos originalmente clínicos da Gestalt-terapia. No trabalho, aparecem como adaptações para refletir sobre comunicação e experiência, sem equivaler a terapia (Chidiac, 2013).</p></section>
+
+<section id="mapa" class="rv"><h2>Mapa interativo da organização</h2><p>A organização é um campo de partes interdependentes. Clique em um elemento do mapa para ver como ele se liga ao todo e use o botão para simular uma mudança.</p><div class="g"><div class="k"><svg id="mp" viewBox="0 0 600 420" style="max-width:none" aria-label="Mapa: organização no centro, ligada a indivíduo, equipe, liderança, cultura e condições de trabalho"><g stroke="#8aa899" stroke-width="4"><line x1="300" y1="215" x2="90" y2="110"/><line x1="300" y1="215" x2="510" y2="110"/><line x1="300" y1="215" x2="90" y2="320"/><line x1="300" y1="215" x2="510" y2="320"/><line x1="300" y1="215" x2="300" y2="50"/></g><circle cx="300" cy="215" r="52" fill="#0f4c5c"/><text x="300" y="220" text-anchor="middle" font-size="15" fill="#fff">Organização</text><g class="nd" data-i="0" style="cursor:pointer"><circle cx="90" cy="110" r="44" fill="#8aa899"/><text x="90" y="115" text-anchor="middle" font-size="15" fill="#0b3a47">Indivíduo</text></g><g class="nd" data-i="1" style="cursor:pointer"><circle cx="510" cy="110" r="44" fill="#8aa899"/><text x="510" y="115" text-anchor="middle" font-size="15" fill="#0b3a47">Equipe</text></g><g class="nd" data-i="2" style="cursor:pointer"><circle cx="90" cy="320" r="44" fill="#8aa899"/><text x="90" y="325" text-anchor="middle" font-size="15" fill="#0b3a47">Liderança</text></g><g class="nd" data-i="3" style="cursor:pointer"><circle cx="510" cy="320" r="44" fill="#8aa899"/><text x="510" y="325" text-anchor="middle" font-size="15" fill="#0b3a47">Cultura</text></g><g class="nd" data-i="4" style="cursor:pointer"><circle cx="300" cy="50" r="44" fill="#8aa899"/><text x="300" y="55" text-anchor="middle" font-size="14" fill="#0b3a47">Condições</text></g></svg></div><div class="k"><h3 id="mh">Selecione um elemento</h3><p id="mt">Nenhum elemento é compreendido isoladamente: cada parte é lida em relação ao conjunto.</p><div class="bar"><button id="mc">Simular uma mudança</button></div><p id="mx" class="n"></p></div></div></section>
+
+<section id="cultura" class="rv"><h2>Cultura e clima organizacional</h2>
+<p>Cultura: valores, crenças, hábitos, regras explícitas e expectativas implícitas que orientam como as pessoas decidem e interpretam problemas. Clima: percepção dos trabalhadores sobre liderança, reconhecimento, segurança psicológica, justiça, comunicação e condições de trabalho em dado momento.</p>
+<div class="bar" id="tb"><button class="on">Colaborativa</button><button>Competitiva</button></div><div class="k" id="tc"></div>
+<p class="n">A abordagem gestáltica, isoladamente, não explica todos os fenômenos organizacionais.</p></section>
+
+<section id="aplicacoes" class="rv"><h2>Aplicações no trabalho</h2>
+<div class="k"><h3>Um conflito, três leituras</h3><svg id="cf" viewBox="0 0 520 240" style="max-width:560px" aria-label="Gestor e equipe com balões de fala que mudam conforme a leitura"><rect x="20" y="10" width="230" height="44" rx="14" fill="#f7f6f1" stroke="#0f4c5c" stroke-width="2"/><rect x="270" y="10" width="230" height="44" rx="14" fill="#f7f6f1" stroke="#0f4c5c" stroke-width="2"/><text id="t1" x="135" y="37" text-anchor="middle" font-size="13" fill="#0f4c5c"></text><text id="t2" x="385" y="37" text-anchor="middle" font-size="13" fill="#0f4c5c"></text><circle cx="80" cy="110" r="28" fill="#8aa899"/><rect x="45" y="142" width="70" height="80" rx="24" fill="#1b6275"/><g fill="#8aa899"><circle cx="380" cy="120" r="22"/><circle cx="430" cy="120" r="22"/><circle cx="480" cy="120" r="22"/></g><g fill="#1b6275"><rect x="354" y="146" width="52" height="74" rx="20"/><rect x="404" y="146" width="52" height="74" rx="20"/><rect x="454" y="146" width="52" height="74" rx="20"/></g></svg><div class="bar" id="cb"><button class="on">Visão do gestor</button><button>Visão da equipe</button><button>Ver o contexto</button></div><small>Mesma cena, ângulos diferentes: a análise contextual compara as leituras antes de culpar alguém.</small></div>
+<details open><summary>Comunicação e conflitos</summary>Interpretações diferentes, expectativas não ditas, ruídos e padrões de relação alimentam conflitos. Caso fictício: o gestor pede “mais proatividade”; a equipe entende que deve decidir sozinha e depois é criticada. Análise: que expectativas ficaram implícitas? Que informações faltaram? Caminho: escuta, explicitar necessidades e acordos claros, sem culpa automática.</details>
+<details><summary>Liderança</summary>Líderes e equipes se influenciam pelo contexto, pelas relações e pela percepção. Práticas: escuta ativa, feedback específico e respeitoso, consciência das próprias reações, limites claros e participação coletiva nas decisões.</details>
+<details><summary>Saúde psicossocial</summary>Sobrecarga, conflitos, falta de reconhecimento, ambiguidade de funções e recursos insuficientes afetam a experiência de trabalho. Dificuldades organizacionais não se reduzem a falhas individuais, e a abordagem não substitui avaliação profissional nem as evidências da Psicologia Organizacional e do Trabalho.</details>
+<details><summary>Mudança organizacional</summary>Mudanças alteram relações e expectativas. Comunicação, participação, percepção de ameaça e resistência influenciam a adaptação. A teoria de campo inspira estudos de mudança, mas é distinta de outros modelos associados a Lewin (Burnes; Cooke, 2013).</details></section>
+
+<section id="caso" class="rv"><h2>Estudo de caso (fictício)</h2>
+<p>Empresa com alta rotatividade, conflitos entre departamentos, falhas de comunicação e queda de produtividade. Abra cada nível de análise.</p>
+<details><summary>Indivíduo</summary>Cansaço, dúvidas sobre papéis e sensação de não ser ouvido.</details>
+<details><summary>Equipe</summary>Setores que se culpam e informações que não circulam.</details>
+<details><summary>Liderança e comunicação</summary>Cobrança por resultados sem espaço para feedback; metas mudam sem explicação.</details>
+<details><summary>Cultura e condições</summary>Normas implícitas de “não reclamar”, recursos escassos e processos pouco claros.</details>
+<details><summary>Intervenções e limites</summary>Diagnóstico participativo, alinhamento de fluxos e treino de feedback. Limites: mudar cultura leva tempo, depende de recursos e de apoio da direção.</details>
+</section>
+
+<section id="atividade" class="rv"><h2>Atividade: investigue o contexto</h2>
+<p class="q">“Uma funcionária é considerada desmotivada porque participa pouco das reuniões.”</p><p>Clique em cada hipótese para ver o que precisaria ser investigado.</p><div class="bar" id="hy"></div><div class="k" id="ho">Escolha uma hipótese.</div>
+<p class="n">Interpretar com responsabilidade exige investigação, escuta e análise do contexto antes de concluir.</p></section>
+
+<section id="quiz" class="rv"><h2>Quiz de revisão</h2><div id="qz"></div><p id="sc" class="q"></p></section>
+
+<section id="limites" class="rv"><h2>Contribuições e limitações</h2><div class="g"><div class="k"><h3>Contribuições</h3><p>Olhar integrado, atenção ao contexto e valorização da escuta e da awareness nas relações de trabalho.</p></div><div class="k"><h3>Limitações</h3><p>Diversidade de abordagens, necessidade de evidências empíricas, risco de simplificação conceitual e necessidade de integrar a Psicologia Organizacional e do Trabalho. “Gestalt organizacional” não é uma teoria única e padronizada.</p></div></div>
+<blockquote>Compreender uma organização é olhar para as pessoas, para suas relações e para o contexto que constroem juntas.</blockquote></section>
+
+<section id="refs" class="rv"><h2>Referências</h2><ol>
+<li>WERTHEIMER, Max. Untersuchungen zur Lehre von der Gestalt II. <i>Psychologische Forschung</i>, 1923.</li>
+<li>LEWIN, Kurt. <i>Principles of Topological Psychology</i>. New York: McGraw-Hill, 1936.</li>
+<li>PERLS, Frederick; HEFFERLINE, Ralph; GOODMAN, Paul. <i>Gestalt Therapy</i>. New York: Julian Press, 1951.</li>
+<li>BURNES, Bernard; COOKE, Bill. Kurt Lewin’s Field Theory: A Review and Re-evaluation. <i>International Journal of Management Reviews</i>, 2013. <a href="https://doi.org/10.1111/j.1468-2370.2012.00348.x">doi.org/10.1111/j.1468-2370.2012.00348.x</a></li>
+<li>WAGEMANS, Johan et al. A Century of Gestalt Psychology in Visual Perception: I. <i>Psychological Bulletin</i>, 2012. <a href="https://doi.org/10.1037/a0029333">doi.org/10.1037/a0029333</a></li>
+<li>CHIDIAC, Maria-Alexandra. An organisational change approach based on Gestalt psychotherapy theory and practice. <i>Journal of Organizational Change Management</i>, 2013. <a href="https://doi.org/10.1108/09534811311328533">doi.org/10.1108/09534811311328533</a></li></ol>
+<p class="n">Volume e páginas e fontes brasileiras ainda devem ser conferidas e acrescentadas antes da entrega.</p></section>
+
+<section id="autora" class="rv"><h2>Sobre mim</h2><p>Meu nome é Lídia Christine Leite Rocha, sou estudante do 4º período do curso de Psicologia da FACHUSC. Esta apresentação foi desenvolvida como parte de um trabalho acadêmico para a disciplina de Teorias Psicológicas, ministrada pela professora Estela. O objetivo deste trabalho é aprofundar a compreensão da Gestalt e de suas possíveis contribuições para a análise das relações humanas e dos processos organizacionais, articulando fundamentos teóricos, reflexão crítica e exemplos práticos.</p></section>
+<footer>Gestalt Organizacional · Psicologia · FACHUSC · Salgueiro - PE · Teorias Psicológicas</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+function tabs(sel,fn){const bs=$$(sel+" button");bs.forEach((b,i)=>b.onclick=()=>{bs.forEach(x=>x.classList.remove("on"));b.classList.add("on");fn(i)});fn(0)}
+// 3D
+try{
+const cv=$("#cv"),R=new THREE.WebGLRenderer({canvas:cv,antialias:true,alpha:true}),S=new THREE.Scene(),C=new THREE.PerspectiveCamera(50,1,.1,100);C.position.z=12;
+const n=150,L=[new Float32Array(n*3),new Float32Array(n*3),new Float32Array(n*3)],K=[new Float32Array(n*3),new Float32Array(n*3),new Float32Array(n*3)];
+const ce=[[-3,2,0],[3,2,1],[0,3,-2],[-3,-2,-1],[3,-2,-1],[0,-3,2]],pal=[[.54,.66,.6],[.5,.77,.83],[.96,.78,.4],[.9,.5,.45],[.7,.6,.9],[.6,.85,.5]];
+for(let i=0;i<n;i++){const o=i*3,c=i%6,r=i%3,a=Math.PI*2*Math.floor(i/3)/(n/3);
+for(let k=0;k<3;k++){L[0][o+k]=(Math.random()-.5)*9;L[1][o+k]=ce[c][k]+(Math.random()-.5)*1.6;K[0][o+k]=pal[0][k];K[1][o+k]=pal[c][k];K[2][o+k]=pal[r+1][k]}
+L[2][o]=(r+1.2)*1.5*Math.cos(a);L[2][o+1]=(r+1.2)*1.5*Math.sin(a);L[2][o+2]=0}
+const g=new THREE.BufferGeometry(),ps=Float32Array.from(L[0]),cs=Float32Array.from(K[0]);
+g.setAttribute("position",new THREE.BufferAttribute(ps,3));g.setAttribute("color",new THREE.BufferAttribute(cs,3));
+const t=document.createElement("canvas");t.width=t.height=64;const x=t.getContext("2d");x.fillStyle="#fff";x.beginPath();x.arc(32,32,30,0,7);x.fill();
+const pt=new THREE.Points(g,new THREE.PointsMaterial({size:.45,vertexColors:true,map:new THREE.CanvasTexture(t),transparent:true,alphaTest:.1})),G=new THREE.Group();G.add(pt);S.add(G);
+let m=0,tx=0,ty=0,auto=true,dr=false,lx=0,ly=0;
+const cap=["Indivíduos dispersos: sem relação percebida, cada ponto é uma parte isolada.","Grupos: a proximidade cria agrupamentos e a mente percebe equipes.","Organização: os pontos formam anéis concêntricos. Gire para a vista lateral e o padrão vira linhas."];
+$$("#md button").forEach(b=>b.onclick=()=>{$$("#md button").forEach(y=>y.classList.remove("on"));b.classList.add("on");m=+b.dataset.m;$("#cap").textContent=cap[m]});$("#cap").textContent=cap[0];
+$$("#vw button").forEach(b=>b.onclick=()=>{const v=b.dataset.v;if(v=="a")auto=true;else{auto=false;tx=0;ty=v=="l"?Math.PI/2:0}$$("#vw button").forEach(y=>y.classList.remove("on"));b.classList.add("on")});
+cv.onpointerdown=e=>{dr=true;auto=false;lx=e.clientX;ly=e.clientY;cv.setPointerCapture(e.pointerId)};
+cv.onpointerup=()=>dr=false;
+cv.onpointermove=e=>{if(dr){ty+=(e.clientX-lx)*.01;tx+=(e.clientY-ly)*.01;lx=e.clientX;ly=e.clientY}};
+function an(){requestAnimationFrame(an);const w=cv.clientWidth,h=cv.clientHeight;if(cv.width!=w*devicePixelRatio){R.setPixelRatio(devicePixelRatio);R.setSize(w,h,false);C.aspect=w/h;C.updateProjectionMatrix()}
+for(let i=0;i<n*3;i++){ps[i]+=(L[m][i]-ps[i])*.06;cs[i]+=(K[m][i]-cs[i])*.06}
+g.attributes.position.needsUpdate=g.attributes.color.needsUpdate=true;
+if(auto)ty+=.005;G.rotation.x+=(tx-G.rotation.x)*.1;G.rotation.y+=(ty-G.rotation.y)*.1;R.render(S,C)}an();
+}catch(e){$("#cv").style.display="none"}
+// proximidade
+function dots(v){const dx=20+v*.6,dy=80-v*.6;let s="";for(let i=0;i<6;i++)for(let j=0;j<6;j++)s+=`<circle cx="${30+i*dx}" cy="${30+j*dy}" r="9" fill="#0f4c5c"/>`;$("#dt").innerHTML=s;$("#dl").textContent=v<45?"Você vê: linhas":v>55?"Você vê: colunas":"Você vê: grade ambígua"}
+$("#sl").oninput=e=>dots(+e.target.value);dots(0);
+// vaso
+$("#b1").onclick=()=>{$("#vs").style.opacity=1;$("#sd").style.opacity=1};
+$("#b2").onclick=()=>{$("#vs").style.opacity=0;$("#sd").style.opacity=1};
+// cubo
+let nk=0;$("#nk").onclick=()=>{nk^=1;$("#r1").setAttribute("fill",nk?"#8aa899":"none");$("#r2").setAttribute("fill",nk?"none":"#8aa899")};$("#nk").onclick();$("#nk").onclick();
+// timeline
+const TL=["<h3>1912–1923</h3>Max Wertheimer, Wolfgang Köhler e Kurt Koffka formulam os princípios da organização perceptiva: o todo estruturado precede as partes na percepção.","<h3>1936</h3>Kurt Lewin publica Principles of Topological Psychology, propondo a teoria de campo: comportamento em relação à pessoa e ao ambiente. Dialoga com a Gestalt, mas é contribuição própria.","<h3>1951</h3>Perls, Hefferline e Goodman publicam a obra fundadora da Gestalt-terapia, que ganha desenvolvimento com Laura Perls.","<h3>Décadas seguintes</h3>Autores adaptam conceitos gestálticos à consultoria e à mudança organizacional, como Chidiac (2013), em diálogo com a Psicologia Organizacional e do Trabalho."];
+tabs("#tl",i=>$("#tt").innerHTML=TL[i]);
+// figura-fundo
+$("#ff").onclick=()=>{const h=$("#fb").hidden;$("#fb").hidden=!h;$("#fg").style.opacity=h?.45:1;$("#ff").textContent=h?"Voltar à figura":"Revelar o fundo"};
+// campo
+function cp(){const p=+$("#p1").value,a=+$("#p2").value,v=Math.round(.4*p+.6*a);$("#bo").style.width=v+"%";$("#ot").textContent="Comportamento esperado: "+v+"% . A mesma pessoa, em ambientes diferentes, age de modo diferente."}
+$("#p1").oninput=$("#p2").oninput=cp;cp();
+// cultura
+const CU=["<svg viewBox='0 0 240 80' aria-label='Nós conectados'><path d='M30 40L90 20L150 50L210 30M90 20L90 60L150 50M30 40L90 60' stroke='#0f4c5c' stroke-width='2' fill='none'/><g fill='#8aa899'><circle cx='30' cy='40' r='10'/><circle cx='90' cy='20' r='10'/><circle cx='90' cy='60' r='10'/><circle cx='150' cy='50' r='10'/><circle cx='210' cy='30' r='10'/></g></svg>Erros viram aprendizado coletivo, a informação circula e o êxito é compartilhado. Problemas tendem a ser lidos como falhas de processo.","<svg viewBox='0 0 240 80' aria-label='Nós isolados'><g fill='none' stroke='#b3472f' stroke-width='2'><rect x='12' y='18' width='36' height='44'/><rect x='57' y='18' width='36' height='44'/><rect x='102' y='18' width='36' height='44'/><rect x='147' y='18' width='36' height='44'/><rect x='192' y='18' width='36' height='44'/></g><g fill='#8aa899'><circle cx='30' cy='40' r='10'/><circle cx='75' cy='40' r='10'/><circle cx='120' cy='40' r='10'/><circle cx='165' cy='40' r='10'/><circle cx='210' cy='40' r='10'/></g></svg>A informação é guardada e o êxito de um é lido como perda do outro. Problemas tendem a ser lidos como falhas de pessoas."];
+tabs("#tb",i=>$("#tc").innerHTML=CU[i]);
+// atividade
+const H=[["Insegurança para falar","O que acontece quando ela fala? Há ironia ou interrupções?"],["Liderança excessivamente crítica","Como o gestor responde às contribuições da equipe?"],["Falta de clareza sobre as reuniões","Qual é a pauta e o papel de cada pessoa?"],["Sobrecarga","Ela tem carga acima do combinado? Há tempo para se preparar?"],["Preferência por outra forma de comunicação","Ela participa por escrito ou em conversas individuais?"]];
+$("#hy").innerHTML=H.map((h,i)=>`<button data-i="${i}">${h[0]}</button>`).join("");
+$$("#hy button").forEach(b=>b.onclick=()=>{$("#ho").textContent="Para investigar: "+H[b.dataset.i][1]});
+// quiz
+const Q=[["Qual afirmação diferencia corretamente as perspectivas?",["São sinônimos.","A Psicologia da Gestalt estuda percepção; a Gestalt-terapia é psicoterapia.","A Gestalt-terapia é anterior à Psicologia da Gestalt."],1,"Têm conexões, mas não são sinônimas."],["Atribuir atrasos só à falta de comprometimento, ignorando sobrecarga, ilustra:",["Foco na figura e esquecimento do fundo.","Autorregulação.","Clima positivo."],0,"O problema visível ocupa a atenção; é uma analogia, não um diagnóstico."],["Na teoria de campo, o comportamento é função de:",["Apenas traços internos.","Pessoa e ambiente.","Apenas o ambiente."],1,"Pessoa e ambiente percebido são interdependentes (Lewin, 1936)."],["Cultura e clima:",["São idênticos.","Clima é a percepção do momento; cultura é um padrão mais estável.","Cultura só existe em grandes empresas."],1,"Cultura reúne valores e expectativas mais estáveis."],["Funcionária silenciosa nas reuniões. Melhor primeiro passo:",["Rotulá-la como desmotivada.","Investigar o contexto e escutá-la.","Puni-la."],1,"Interpretar com responsabilidade exige investigar antes de concluir."]];
+let pts=0,done=0;
+$("#qz").innerHTML=Q.map((q,i)=>`<div class="k" style="margin:12px 0"><b>${i+1}. ${q[0]}</b><div class="bar">${q[1].map((o,j)=>`<button data-q="${i}" data-o="${j}">${o}</button>`).join("")}</div><p id="fq${i}"></p></div>`).join("");
+$$("#qz button").forEach(b=>b.onclick=()=>{const i=+b.dataset.q;if($("#fq"+i).textContent)return;const ok=+b.dataset.o==Q[i][2];done++;if(ok)pts++;$("#fq"+i).innerHTML=(ok?'<span class="ok">Correto.</span> ':'<span class="no">Não foi essa.</span> ')+Q[i][3];if(done==5)$("#sc").textContent="Resultado: "+pts+" de 5."});
+// mapa
+const MP=[["Indivíduo","Traz história, necessidades e expectativas. Seu comportamento é lido em relação ao campo (Lewin, 1936)."],["Equipe","Normas, papéis e padrões de relacionamento definem o que é esperado e permitido."],["Liderança","Influencia clima e comunicação, e também é influenciada pelas pressões do contexto."],["Cultura","Valores e expectativas implícitas orientam como os problemas são interpretados."],["Condições de trabalho","Carga, recursos e processos: condições institucionais afetam a experiência dos trabalhadores."]];
+const mc=$$("#mp .nd"),ml=$$("#mp line");
+mc.forEach(g=>g.onclick=()=>{const i=+g.dataset.i;mc.forEach((x,j)=>{x.firstChild.setAttribute("fill",j==i?"#0f4c5c":"#8aa899");x.lastChild.setAttribute("fill",j==i?"#fff":"#0b3a47")});ml.forEach((l,j)=>l.style.opacity=j==i?1:.25);$("#mh").textContent=MP[i][0];$("#mt").textContent=MP[i][1]});
+$("#mc").onclick=()=>{const s=$("#mp");s.classList.add("fl");setTimeout(()=>s.classList.remove("fl"),3000);$("#mx").textContent="Uma mudança em qualquer ponto repercute nos demais: a comunicação reflete a liderança, que reflete as condições, e assim por diante."};
+// conflito
+const CF=[["Pedi mais proatividade.","A equipe não decide."],["Decidimos e fomos criticados.","Não sei o que se espera."],["Expectativas ficaram implícitas.","Falta combinar papéis e limites."]];
+tabs("#cb",i=>{$("#t1").textContent=CF[i][0];$("#t2").textContent=CF[i][1]});
+// tema e progresso
+$("#th").onclick=()=>{const r=document.documentElement;r.dataset.theme=(r.dataset.theme=="dark"||(!r.dataset.theme&&matchMedia("(prefers-color-scheme:dark)").matches))?"light":"dark"};
+addEventListener("scroll",()=>{$("#pg").style.width=100*scrollY/Math.max(1,document.body.scrollHeight-innerHeight)+"%"});
+// reveal
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add("v")}));$$(".rv").forEach(e=>io.observe(e));
+</script></body></html>
